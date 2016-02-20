@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "muth_pkg")
-set(muth_pkg_MAINTAINER "mkhuthir <mkhuthir@todo.todo>")
-set(muth_pkg_DEPRECATED "")
-set(muth_pkg_VERSION "0.0.0")
-set(muth_pkg_BUILD_DEPENDS "rospy")
-set(muth_pkg_RUN_DEPENDS "rospy")
-set(muth_pkg_BUILDTOOL_DEPENDS "catkin")
