@@ -1,0 +1,8 @@
+prefix=/home/mkhuthir/catkin_ws/devel
+
+Name: muth_pkg
+Description: Description of muth_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mkhuthir/catkin_ws/devel/lib 
+Requires: 
