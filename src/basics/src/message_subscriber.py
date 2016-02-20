@@ -1,23 +1,18 @@
 #!/usr/bin/env python
 
 import rospy
-
 from basics.msg import Complex
 
-from random import random
+
+def callback(msg):
+	print 'Real:', msg.real
+	print 'Imaginary:', msg.imaginary
+	print '----------'
 
 
-rospy.init_node('message_publisher')
+rospy.init_node('message_subscriber')
 
-pub = rospy.Publisher('complex', Complex)
+sub=rospy.Subscriber('complex', Complex, callback)
 
-rate = rospy.Rate(2)
-
-while not rospy.is_shutdown():
-    msg = Complex()
-    msg.real = random()
-    msg.imaginary = random()
-
-    pub.publish(msg)
-    rate.sleep()
+rospy.spin()
 
