@@ -1,2 +1,2 @@
 # catkin_ws
-ROS Indigo workspace
+Programming Robots with ROS book: catkin basics workspace (indigo)
