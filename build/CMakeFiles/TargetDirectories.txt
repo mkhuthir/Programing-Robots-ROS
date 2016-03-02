@@ -21,6 +21,9 @@
 /home/mkhuthir/catkin_ws/build/CMakeFiles/clean_test_results_Project.dir
 /home/mkhuthir/catkin_ws/build/CMakeFiles/download_extra_data.dir
 /home/mkhuthir/catkin_ws/build/CMakeFiles/doxygen.dir
+/home/mkhuthir/catkin_ws/build/wanderbot/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+/home/mkhuthir/catkin_ws/build/wanderbot/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
+/home/mkhuthir/catkin_ws/build/wanderbot/CMakeFiles/geometry_msgs_generate_messages_py.dir
 /home/mkhuthir/catkin_ws/build/gtest/CMakeFiles/gtest.dir
 /home/mkhuthir/catkin_ws/build/gtest/CMakeFiles/gtest_main.dir
 /home/mkhuthir/catkin_ws/build/basics/CMakeFiles/roscpp_generate_messages_cpp.dir
@@ -30,6 +33,9 @@
 /home/mkhuthir/catkin_ws/build/basics/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
 /home/mkhuthir/catkin_ws/build/basics/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
 /home/mkhuthir/catkin_ws/build/CMakeFiles/run_tests.dir
+/home/mkhuthir/catkin_ws/build/wanderbot/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
+/home/mkhuthir/catkin_ws/build/wanderbot/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
+/home/mkhuthir/catkin_ws/build/wanderbot/CMakeFiles/sensor_msgs_generate_messages_py.dir
 /home/mkhuthir/catkin_ws/build/basics/CMakeFiles/std_msgs_generate_messages_cpp.dir
 /home/mkhuthir/catkin_ws/build/basics/CMakeFiles/std_msgs_generate_messages_lisp.dir
 /home/mkhuthir/catkin_ws/build/basics/CMakeFiles/std_msgs_generate_messages_py.dir
