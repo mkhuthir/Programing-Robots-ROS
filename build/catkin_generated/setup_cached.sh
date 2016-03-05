@@ -7,6 +7,6 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH="/home/mkhuthir/catkin_ws/devel/lib/x86_64-linux-gnu:/opt/ros/indigo/lib/x86_64-linux-gnu:/home/mkhuthir/catkin_ws/devel/lib:/opt/ros/indigo/lib"
-export PKG_CONFIG_PATH="/home/mkhuthir/catkin_ws/devel/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/indigo/lib/x86_64-linux-gnu/pkgconfig:/home/mkhuthir/catkin_ws/devel/lib/pkgconfig:/opt/ros/indigo/lib/pkgconfig"
-export PWD="/home/mkhuthir/catkin_ws/build"
+export LD_LIBRARY_PATH="/home/mkhuthir/learnROS/devel/lib/x86_64-linux-gnu:/opt/ros/indigo/lib/x86_64-linux-gnu:/home/mkhuthir/learnROS/devel/lib:/opt/ros/indigo/lib"
+export PKG_CONFIG_PATH="/home/mkhuthir/learnROS/devel/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/indigo/lib/x86_64-linux-gnu/pkgconfig:/home/mkhuthir/learnROS/devel/lib/pkgconfig:/opt/ros/indigo/lib/pkgconfig"
+export PWD="/home/mkhuthir/learnROS/build"

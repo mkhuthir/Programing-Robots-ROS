@@ -14,7 +14,7 @@ cmd_vel_pub = rospy.Publisher('cmd_vel', Twist, queue_size=1)
 rospy.init_node('wander')
 state_change_time = rospy.Time.now()
 driving_forward = True
-rate = rospy.Rate(10)
+rate = rospy.Rate(5)
 
 while not rospy.is_shutdown():
   if driving_forward:

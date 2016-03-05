@@ -1,8 +1,8 @@
-# Install script for directory: /home/mkhuthir/catkin_ws/src/wanderbot
+# Install script for directory: /home/mkhuthir/learnROS/src/wanderbot
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/mkhuthir/catkin_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/mkhuthir/learnROS/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mkhuthir/catkin_ws/build/wanderbot/catkin_generated/installspace/wanderbot.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mkhuthir/learnROS/build/wanderbot/catkin_generated/installspace/wanderbot.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wanderbot/cmake" TYPE FILE FILES
-    "/home/mkhuthir/catkin_ws/build/wanderbot/catkin_generated/installspace/wanderbotConfig.cmake"
-    "/home/mkhuthir/catkin_ws/build/wanderbot/catkin_generated/installspace/wanderbotConfig-version.cmake"
+    "/home/mkhuthir/learnROS/build/wanderbot/catkin_generated/installspace/wanderbotConfig.cmake"
+    "/home/mkhuthir/learnROS/build/wanderbot/catkin_generated/installspace/wanderbotConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wanderbot" TYPE FILE FILES "/home/mkhuthir/catkin_ws/src/wanderbot/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wanderbot" TYPE FILE FILES "/home/mkhuthir/learnROS/src/wanderbot/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

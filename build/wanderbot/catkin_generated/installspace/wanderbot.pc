@@ -1,8 +1,8 @@
-prefix=/home/mkhuthir/catkin_ws/install
+prefix=/home/mkhuthir/learnROS/install
 
 Name: wanderbot
 Description: Description of wanderbot
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/mkhuthir/catkin_ws/install/lib 
+Libs: -L/home/mkhuthir/learnROS/install/lib 
 Requires: 

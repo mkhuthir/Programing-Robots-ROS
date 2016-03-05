@@ -1,8 +1,8 @@
-# Install script for directory: /home/mkhuthir/catkin_ws/src/basics
+# Install script for directory: /home/mkhuthir/learnROS/src/basics
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/mkhuthir/catkin_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/mkhuthir/learnROS/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,65 +33,65 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basics/msg" TYPE FILE FILES "/home/mkhuthir/catkin_ws/src/basics/msg/Complex.msg")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basics/msg" TYPE FILE FILES "/home/mkhuthir/learnROS/src/basics/msg/Complex.msg")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basics/srv" TYPE FILE FILES "/home/mkhuthir/catkin_ws/src/basics/srv/WordCount.srv")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basics/srv" TYPE FILE FILES "/home/mkhuthir/learnROS/src/basics/srv/WordCount.srv")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basics/action" TYPE FILE FILES "/home/mkhuthir/catkin_ws/src/basics/action/Timer.action")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basics/action" TYPE FILE FILES "/home/mkhuthir/learnROS/src/basics/action/Timer.action")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basics/msg" TYPE FILE FILES
-    "/home/mkhuthir/catkin_ws/devel/share/basics/msg/TimerAction.msg"
-    "/home/mkhuthir/catkin_ws/devel/share/basics/msg/TimerActionGoal.msg"
-    "/home/mkhuthir/catkin_ws/devel/share/basics/msg/TimerActionResult.msg"
-    "/home/mkhuthir/catkin_ws/devel/share/basics/msg/TimerActionFeedback.msg"
-    "/home/mkhuthir/catkin_ws/devel/share/basics/msg/TimerGoal.msg"
-    "/home/mkhuthir/catkin_ws/devel/share/basics/msg/TimerResult.msg"
-    "/home/mkhuthir/catkin_ws/devel/share/basics/msg/TimerFeedback.msg"
+    "/home/mkhuthir/learnROS/devel/share/basics/msg/TimerAction.msg"
+    "/home/mkhuthir/learnROS/devel/share/basics/msg/TimerActionGoal.msg"
+    "/home/mkhuthir/learnROS/devel/share/basics/msg/TimerActionResult.msg"
+    "/home/mkhuthir/learnROS/devel/share/basics/msg/TimerActionFeedback.msg"
+    "/home/mkhuthir/learnROS/devel/share/basics/msg/TimerGoal.msg"
+    "/home/mkhuthir/learnROS/devel/share/basics/msg/TimerResult.msg"
+    "/home/mkhuthir/learnROS/devel/share/basics/msg/TimerFeedback.msg"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basics/cmake" TYPE FILE FILES "/home/mkhuthir/catkin_ws/build/basics/catkin_generated/installspace/basics-msg-paths.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basics/cmake" TYPE FILE FILES "/home/mkhuthir/learnROS/build/basics/catkin_generated/installspace/basics-msg-paths.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/mkhuthir/catkin_ws/devel/include/basics")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/mkhuthir/learnROS/devel/include/basics")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/mkhuthir/catkin_ws/devel/share/common-lisp/ros/basics")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/mkhuthir/learnROS/devel/share/common-lisp/ros/basics")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/mkhuthir/catkin_ws/devel/lib/python2.7/dist-packages/basics")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/mkhuthir/catkin_ws/devel/lib/python2.7/dist-packages/basics")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mkhuthir/catkin_ws/build/basics/catkin_generated/installspace/basics.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mkhuthir/learnROS/build/basics/catkin_generated/installspace/basics.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basics/cmake" TYPE FILE FILES "/home/mkhuthir/catkin_ws/build/basics/catkin_generated/installspace/basics-msg-extras.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basics/cmake" TYPE FILE FILES "/home/mkhuthir/learnROS/build/basics/catkin_generated/installspace/basics-msg-extras.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basics/cmake" TYPE FILE FILES
-    "/home/mkhuthir/catkin_ws/build/basics/catkin_generated/installspace/basicsConfig.cmake"
-    "/home/mkhuthir/catkin_ws/build/basics/catkin_generated/installspace/basicsConfig-version.cmake"
+    "/home/mkhuthir/learnROS/build/basics/catkin_generated/installspace/basicsConfig.cmake"
+    "/home/mkhuthir/learnROS/build/basics/catkin_generated/installspace/basicsConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basics" TYPE FILE FILES "/home/mkhuthir/catkin_ws/src/basics/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basics" TYPE FILE FILES "/home/mkhuthir/learnROS/src/basics/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

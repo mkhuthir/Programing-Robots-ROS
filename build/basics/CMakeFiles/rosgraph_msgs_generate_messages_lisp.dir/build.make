@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mkhuthir/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/mkhuthir/learnROS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mkhuthir/catkin_ws/build
+CMAKE_BINARY_DIR = /home/mkhuthir/learnROS/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_lisp.
 
@@ -56,10 +56,10 @@ basics/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build: rosgraph_msgs_
 .PHONY : basics/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 
 basics/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	cd /home/mkhuthir/catkin_ws/build/basics && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/mkhuthir/learnROS/build/basics && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : basics/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 basics/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend:
-	cd /home/mkhuthir/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mkhuthir/catkin_ws/src /home/mkhuthir/catkin_ws/src/basics /home/mkhuthir/catkin_ws/build /home/mkhuthir/catkin_ws/build/basics /home/mkhuthir/catkin_ws/build/basics/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mkhuthir/learnROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mkhuthir/learnROS/src /home/mkhuthir/learnROS/src/basics /home/mkhuthir/learnROS/build /home/mkhuthir/learnROS/build/basics /home/mkhuthir/learnROS/build/basics/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : basics/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
 

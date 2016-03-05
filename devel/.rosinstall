@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/mkhuthir/catkin_ws/devel/setup.sh
+    local-name: /home/mkhuthir/learnROS/devel/setup.sh

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mkhuthir/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/mkhuthir/learnROS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mkhuthir/catkin_ws/build
+CMAKE_BINARY_DIR = /home/mkhuthir/learnROS/build
 
 # Utility rule file for sensor_msgs_generate_messages_cpp.
 
@@ -56,10 +56,10 @@ wanderbot/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build: sensor_msgs_ge
 .PHONY : wanderbot/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 
 wanderbot/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
-	cd /home/mkhuthir/catkin_ws/build/wanderbot && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/mkhuthir/learnROS/build/wanderbot && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : wanderbot/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 
 wanderbot/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend:
-	cd /home/mkhuthir/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mkhuthir/catkin_ws/src /home/mkhuthir/catkin_ws/src/wanderbot /home/mkhuthir/catkin_ws/build /home/mkhuthir/catkin_ws/build/wanderbot /home/mkhuthir/catkin_ws/build/wanderbot/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mkhuthir/learnROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mkhuthir/learnROS/src /home/mkhuthir/learnROS/src/wanderbot /home/mkhuthir/learnROS/build /home/mkhuthir/learnROS/build/wanderbot /home/mkhuthir/learnROS/build/wanderbot/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : wanderbot/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
 
