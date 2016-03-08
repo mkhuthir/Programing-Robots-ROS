@@ -1,2 +1,2 @@
-basics:teleopbot:wanderbot
+basics:navigation:teleopbot:wanderbot
 -DCATKIN_DEVEL_PREFIX=/home/mkhuthir/learnROS/devel -DCMAKE_INSTALL_PREFIX=/home/mkhuthir/learnROS/install -G Unix Makefiles

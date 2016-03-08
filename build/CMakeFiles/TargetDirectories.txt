@@ -7,7 +7,7 @@
 /home/mkhuthir/learnROS/build/basics/CMakeFiles/_basics_generate_messages_check_deps_TimerGoal.dir
 /home/mkhuthir/learnROS/build/basics/CMakeFiles/_basics_generate_messages_check_deps_TimerResult.dir
 /home/mkhuthir/learnROS/build/basics/CMakeFiles/_basics_generate_messages_check_deps_WordCount.dir
-/home/mkhuthir/learnROS/build/teleopbot/CMakeFiles/_catkin_empty_exported_target.dir
+/home/mkhuthir/learnROS/build/navigation/CMakeFiles/_catkin_empty_exported_target.dir
 /home/mkhuthir/learnROS/build/basics/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir
 /home/mkhuthir/learnROS/build/basics/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir
 /home/mkhuthir/learnROS/build/basics/CMakeFiles/actionlib_msgs_generate_messages_py.dir

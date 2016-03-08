@@ -263,7 +263,7 @@ _catkin_empty_exported_target: cmake_check_build_system
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	$(MAKE) -f teleopbot/CMakeFiles/_catkin_empty_exported_target.dir/build.make teleopbot/CMakeFiles/_catkin_empty_exported_target.dir/build
+	$(MAKE) -f navigation/CMakeFiles/_catkin_empty_exported_target.dir/build.make navigation/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 #=============================================================================
