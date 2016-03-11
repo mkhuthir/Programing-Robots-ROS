@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 # BEGIN ALL
 import sys, select, tty, termios
 import rospy

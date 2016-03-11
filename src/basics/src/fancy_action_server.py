@@ -1,6 +1,6 @@
-#! /usr/bin/env python
+#! /usr/bin/python
 # BEGIN ALL
-#! /usr/bin/env python
+#! /usr/bin/python
 import rospy
 
 import time

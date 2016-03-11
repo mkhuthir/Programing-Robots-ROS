@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 # BEGIN ALL
 import rospy
 from sensor_msgs.msg import LaserScan
