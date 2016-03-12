@@ -1,0 +1,8 @@
+prefix=/home/mkhuthir/learnROS/devel
+
+Name: r2_description
+Description: Description of r2_description
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mkhuthir/learnROS/devel/lib 
+Requires: 

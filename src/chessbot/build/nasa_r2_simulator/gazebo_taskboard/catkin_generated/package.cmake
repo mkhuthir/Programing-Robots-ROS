@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "gazebo_taskboard")
+set(gazebo_taskboard_MAINTAINER "Stephen Hart <stephen.hart@nasa.gov>, David Lu!! <davidvlu@gmail.com>")
+set(gazebo_taskboard_DEPRECATED "")
+set(gazebo_taskboard_VERSION "0.5.3")
+set(gazebo_taskboard_BUILD_DEPENDS "roscpp" "rospy" "std_msgs" "gazebo" "message_generation")
+set(gazebo_taskboard_RUN_DEPENDS "message_runtime" "std_msgs" "pluginlib" "actionlib" "geometry_msgs" "rostest")
+set(gazebo_taskboard_BUILDTOOL_DEPENDS "catkin")

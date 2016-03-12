@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "r2_control")
+set(r2_control_MAINTAINER "Stephen Hart <stephen.hart@nasa.gov>")
+set(r2_control_DEPRECATED "")
+set(r2_control_VERSION "0.0.0")
+set(r2_control_BUILD_DEPENDS )
+set(r2_control_RUN_DEPENDS "control_msgs" "trajectory_msgs" "sensor_msgs" "actionlib")
+set(r2_control_BUILDTOOL_DEPENDS "catkin")

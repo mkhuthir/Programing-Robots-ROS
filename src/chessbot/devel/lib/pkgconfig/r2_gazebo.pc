@@ -1,0 +1,8 @@
+prefix=/home/mkhuthir/learnROS/src/chessbot/devel
+
+Name: r2_gazebo
+Description: Description of r2_gazebo
+Version: 0.5.4
+Cflags: 
+Libs: -L/home/mkhuthir/learnROS/src/chessbot/devel/lib 
+Requires: 

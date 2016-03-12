@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "r2_description")
+set(r2_description_MAINTAINER "Stephen Hart <stephen.hart@nasa.gov>, Allison Thackston <allison.thackston@nasa.gov>")
+set(r2_description_DEPRECATED "")
+set(r2_description_VERSION "0.0.0")
+set(r2_description_BUILD_DEPENDS )
+set(r2_description_RUN_DEPENDS )
+set(r2_description_BUILDTOOL_DEPENDS "catkin")

@@ -117,10 +117,22 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/mkhuthir/learnROS/build/gtest/cmake_install.cmake")
+  INCLUDE("/home/mkhuthir/learnROS/build/mapping/cmake_install.cmake")
+  INCLUDE("/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_common/nasa_r2_common/cmake_install.cmake")
+  INCLUDE("/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_simulator/nasa_r2_simulator/cmake_install.cmake")
   INCLUDE("/home/mkhuthir/learnROS/build/navigation/cmake_install.cmake")
+  INCLUDE("/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_common/r2_control/cmake_install.cmake")
+  INCLUDE("/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_common/r2_description/cmake_install.cmake")
   INCLUDE("/home/mkhuthir/learnROS/build/teleopbot/cmake_install.cmake")
+  INCLUDE("/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_common/nasa_r2_common_msgs/cmake_install.cmake")
   INCLUDE("/home/mkhuthir/learnROS/build/basics/cmake_install.cmake")
+  INCLUDE("/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_simulator/gazebo_gripper/cmake_install.cmake")
+  INCLUDE("/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_simulator/gazebo_interface/cmake_install.cmake")
+  INCLUDE("/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_simulator/gazebo_taskboard/cmake_install.cmake")
+  INCLUDE("/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_simulator/r2_gazebo/cmake_install.cmake")
   INCLUDE("/home/mkhuthir/learnROS/build/wanderbot/cmake_install.cmake")
+  INCLUDE("/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_common/r2_fullbody_moveit_config/cmake_install.cmake")
+  INCLUDE("/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_common/r2_moveit_config/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

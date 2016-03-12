@@ -1,0 +1,8 @@
+prefix=/home/mkhuthir/learnROS/src/chessbot/install
+
+Name: r2_description
+Description: Description of r2_description
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mkhuthir/learnROS/src/chessbot/install/lib 
+Requires: 

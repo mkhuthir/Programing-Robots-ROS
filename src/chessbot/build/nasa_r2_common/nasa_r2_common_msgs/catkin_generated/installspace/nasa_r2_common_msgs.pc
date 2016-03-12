@@ -1,0 +1,8 @@
+prefix=/home/mkhuthir/learnROS/src/chessbot/install
+
+Name: nasa_r2_common_msgs
+Description: Description of nasa_r2_common_msgs
+Version: 0.0.1
+Cflags: -I/home/mkhuthir/learnROS/src/chessbot/install/include
+Libs: -L/home/mkhuthir/learnROS/src/chessbot/install/lib 
+Requires: std_msgs geometry_msgs visualization_msgs trajectory_msgs message_generation message_runtime

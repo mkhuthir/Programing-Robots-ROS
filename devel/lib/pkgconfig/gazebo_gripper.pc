@@ -1,0 +1,8 @@
+prefix=/home/mkhuthir/learnROS/devel
+
+Name: gazebo_gripper
+Description: Description of gazebo_gripper
+Version: 0.5.3
+Cflags: -I/home/mkhuthir/learnROS/src/chessbot/src/nasa_r2_simulator/gazebo_gripper/include
+Libs: -L/home/mkhuthir/learnROS/devel/lib 
+Requires: 

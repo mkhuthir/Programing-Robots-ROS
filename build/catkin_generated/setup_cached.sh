@@ -7,12 +7,8 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/mkhuthir/learnROS/devel:$CMAKE_PREFIX_PATH"
-export CPATH="/home/mkhuthir/learnROS/devel/include:$CPATH"
-export LD_LIBRARY_PATH="/home/mkhuthir/learnROS/devel/lib:/home/mkhuthir/learnROS/devel/lib/x86_64-linux-gnu:/opt/ros/indigo/lib/x86_64-linux-gnu:/opt/ros/indigo/lib"
-export PATH="/home/mkhuthir/learnROS/devel/bin:$PATH"
-export PKG_CONFIG_PATH="/home/mkhuthir/learnROS/devel/lib/pkgconfig:/home/mkhuthir/learnROS/devel/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/indigo/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/indigo/lib/pkgconfig"
+export LD_LIBRARY_PATH="/home/mkhuthir/learnROS/src/chessbot/devel/lib/x86_64-linux-gnu:/home/mkhuthir/learnROS/devel/lib/x86_64-linux-gnu:/opt/ros/indigo/lib/x86_64-linux-gnu:/home/mkhuthir/learnROS/src/chessbot/devel/lib:/home/mkhuthir/learnROS/devel/lib:/opt/ros/indigo/lib"
+export PKG_CONFIG_PATH="/home/mkhuthir/learnROS/src/chessbot/devel/lib/x86_64-linux-gnu/pkgconfig:/home/mkhuthir/learnROS/devel/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/indigo/lib/x86_64-linux-gnu/pkgconfig:/home/mkhuthir/learnROS/src/chessbot/devel/lib/pkgconfig:/home/mkhuthir/learnROS/devel/lib/pkgconfig:/opt/ros/indigo/lib/pkgconfig"
 export PWD="/home/mkhuthir/learnROS/build"
-export PYTHONPATH="/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/mkhuthir/learnROS/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/mkhuthir/learnROS/src:$ROS_PACKAGE_PATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/mkhuthir/learnROS/src/chessbot/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/mkhuthir/learnROS/src/chessbot/src:$ROS_PACKAGE_PATH"

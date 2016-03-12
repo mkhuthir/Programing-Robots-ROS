@@ -17,6 +17,12 @@
 //Build shared libraries (DLLs).
 BUILD_SHARED_LIBS:BOOL=ON
 
+//The directory containing a CMake configuration file for Boost.
+Boost_DIR:PATH=Boost_DIR-NOTFOUND
+
+//Path to a file.
+Boost_INCLUDE_DIR:PATH=/usr/include
+
 //List of ';' separated packages to exclude
 CATKIN_BLACKLIST_PACKAGES:STRING=
 
@@ -231,8 +237,35 @@ LSB_RELEASE_EXECUTABLE:FILEPATH=/usr/bin/lsb_release
 //Path to a program.
 NOSETESTS:FILEPATH=/usr/bin/nosetests-2.7
 
+//pkg-config executable
+PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
+
 //Path to a file.
 PROJECTCONFIG:FILEPATH=PROJECTCONFIG-NOTFOUND
+
+//Path to a file.
+PROTOBUF_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+PROTOBUF_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libprotobuf.so
+
+//Path to a library.
+PROTOBUF_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libprotobuf.so
+
+//Path to a library.
+PROTOBUF_LITE_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libprotobuf-lite.so
+
+//Path to a library.
+PROTOBUF_LITE_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libprotobuf-lite.so
+
+//The Google Protocol Buffers Compiler
+PROTOBUF_PROTOC_EXECUTABLE:FILEPATH=PROTOBUF_PROTOC_EXECUTABLE-NOTFOUND
+
+//Path to a library.
+PROTOBUF_PROTOC_LIBRARY:FILEPATH=PROTOBUF_PROTOC_LIBRARY-NOTFOUND
+
+//Path to a library.
+PROTOBUF_PROTOC_LIBRARY_DEBUG:FILEPATH=PROTOBUF_PROTOC_LIBRARY_DEBUG-NOTFOUND
 
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
@@ -252,6 +285,9 @@ ROSPACK_EXE:FILEPATH=/opt/ros/indigo/bin/rospack
 //Path to a library.
 RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
 
+//The directory containing a CMake configuration file for SDFormat.
+SDFormat_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/sdformat
+
 //Enable debian style python package layout
 SETUPTOOLS_DEB_LAYOUT:BOOL=ON
 
@@ -270,6 +306,9 @@ _CATKIN_GTEST_INCLUDE:FILEPATH=/usr/include/gtest/gtest.h
 //Path to a file.
 _CATKIN_GTEST_SRC:FILEPATH=/usr/src/gtest/src/gtest.cc
 
+//The directory containing a CMake configuration file for actionlib.
+actionlib_DIR:PATH=/opt/ros/indigo/share/actionlib/cmake
+
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/opt/ros/indigo/share/actionlib_msgs/cmake
 
@@ -284,6 +323,45 @@ catkin_DIR:PATH=/opt/ros/indigo/share/catkin/cmake
 
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/indigo/share/cpp_common/cmake
+
+//The directory containing a CMake configuration file for dynamic_reconfigure.
+dynamic_reconfigure_DIR:PATH=/opt/ros/indigo/share/dynamic_reconfigure/cmake
+
+//The directory containing a CMake configuration file for gazebo.
+gazebo_DIR:PATH=/usr/share/gazebo/cmake
+
+//Value Computed by CMake
+gazebo_gripper_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_simulator/gazebo_gripper
+
+//Dependencies for target
+gazebo_gripper_LIB_DEPENDS:STATIC=
+
+//Value Computed by CMake
+gazebo_gripper_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/chessbot/src/nasa_r2_simulator/gazebo_gripper
+
+//Value Computed by CMake
+gazebo_interface_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_simulator/gazebo_interface
+
+//Dependencies for target
+gazebo_interface_LIB_DEPENDS:STATIC=
+
+//Value Computed by CMake
+gazebo_interface_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/chessbot/src/nasa_r2_simulator/gazebo_interface
+
+//The directory containing a CMake configuration file for gazebo_msgs.
+gazebo_msgs_DIR:PATH=/opt/ros/indigo/share/gazebo_msgs/cmake
+
+//The directory containing a CMake configuration file for gazebo_ros.
+gazebo_ros_DIR:PATH=/opt/ros/indigo/share/gazebo_ros/cmake
+
+//Value Computed by CMake
+gazebo_taskboard_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_simulator/gazebo_taskboard
+
+//Dependencies for target
+gazebo_taskboard_LIB_DEPENDS:STATIC=
+
+//Value Computed by CMake
+gazebo_taskboard_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/chessbot/src/nasa_r2_simulator/gazebo_taskboard
 
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/indigo/share/gencpp/cmake
@@ -328,6 +406,15 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 //Path to a library.
 lib:FILEPATH=/opt/ros/indigo/lib/librostime.so
 
+//Value Computed by CMake
+mapping_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/mapping
+
+//Value Computed by CMake
+mapping_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/mapping
+
+//The directory containing a CMake configuration file for message_filters.
+message_filters_DIR:PATH=/opt/ros/indigo/share/message_filters/cmake
+
 //The directory containing a CMake configuration file for message_generation.
 message_generation_DIR:PATH=/opt/ros/indigo/share/message_generation/cmake
 
@@ -341,10 +428,64 @@ muth_pkg_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/muth_pkg
 muth_pkg_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/muth_pkg
 
 //Value Computed by CMake
+nasa_r2_common_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_common/nasa_r2_common
+
+//Value Computed by CMake
+nasa_r2_common_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/chessbot/src/nasa_r2_common/nasa_r2_common
+
+//Value Computed by CMake
+nasa_r2_common_msgs_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_common/nasa_r2_common_msgs
+
+//The directory containing a CMake configuration file for nasa_r2_common_msgs.
+nasa_r2_common_msgs_DIR:PATH=/home/mkhuthir/learnROS/src/chessbot/devel/share/nasa_r2_common_msgs/cmake
+
+//Value Computed by CMake
+nasa_r2_common_msgs_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/chessbot/src/nasa_r2_common/nasa_r2_common_msgs
+
+//Value Computed by CMake
+nasa_r2_simulator_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_simulator/nasa_r2_simulator
+
+//Value Computed by CMake
+nasa_r2_simulator_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/chessbot/src/nasa_r2_simulator/nasa_r2_simulator
+
+//Value Computed by CMake
 navigation_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/navigation
 
 //Value Computed by CMake
 navigation_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/navigation
+
+//Path to a library.
+onelib:FILEPATH=/usr/lib/x86_64-linux-gnu/libsdformat.so
+
+//Value Computed by CMake
+r2_control_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_common/r2_control
+
+//Value Computed by CMake
+r2_control_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/chessbot/src/nasa_r2_common/r2_control
+
+//Value Computed by CMake
+r2_description_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_common/r2_description
+
+//Value Computed by CMake
+r2_description_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/chessbot/src/nasa_r2_common/r2_description
+
+//Value Computed by CMake
+r2_fullbody_moveit_config_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_common/r2_fullbody_moveit_config
+
+//Value Computed by CMake
+r2_fullbody_moveit_config_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/chessbot/src/nasa_r2_common/r2_fullbody_moveit_config
+
+//Value Computed by CMake
+r2_gazebo_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_simulator/r2_gazebo
+
+//Value Computed by CMake
+r2_gazebo_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/chessbot/src/nasa_r2_simulator/r2_gazebo
+
+//Value Computed by CMake
+r2_moveit_config_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_common/r2_moveit_config
+
+//Value Computed by CMake
+r2_moveit_config_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/chessbot/src/nasa_r2_common/r2_moveit_config
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/indigo/share/rosconsole/cmake
@@ -358,8 +499,14 @@ roscpp_serialization_DIR:PATH=/opt/ros/indigo/share/roscpp_serialization/cmake
 //The directory containing a CMake configuration file for roscpp_traits.
 roscpp_traits_DIR:PATH=/opt/ros/indigo/share/roscpp_traits/cmake
 
+//The directory containing a CMake configuration file for rosgraph.
+rosgraph_DIR:PATH=/opt/ros/indigo/share/rosgraph/cmake
+
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/indigo/share/rosgraph_msgs/cmake
+
+//The directory containing a CMake configuration file for roslib.
+roslib_DIR:PATH=/opt/ros/indigo/share/roslib/cmake
 
 //The directory containing a CMake configuration file for rospy.
 rospy_DIR:PATH=/opt/ros/indigo/share/rospy/cmake
@@ -379,11 +526,35 @@ src_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/basics
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/indigo/share/std_msgs/cmake
 
+//The directory containing a CMake configuration file for std_srvs.
+std_srvs_DIR:PATH=/opt/ros/indigo/share/std_srvs/cmake
+
 //Value Computed by CMake
 teleopbot_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/teleopbot
 
 //Value Computed by CMake
 teleopbot_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/teleopbot
+
+//The directory containing a CMake configuration file for tf2.
+tf2_DIR:PATH=/opt/ros/indigo/share/tf2/cmake
+
+//The directory containing a CMake configuration file for tf2_msgs.
+tf2_msgs_DIR:PATH=/opt/ros/indigo/share/tf2_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2_py.
+tf2_py_DIR:PATH=/opt/ros/indigo/share/tf2_py/cmake
+
+//The directory containing a CMake configuration file for tf2_ros.
+tf2_ros_DIR:PATH=/opt/ros/indigo/share/tf2_ros/cmake
+
+//The directory containing a CMake configuration file for tf.
+tf_DIR:PATH=/opt/ros/indigo/share/tf/cmake
+
+//The directory containing a CMake configuration file for trajectory_msgs.
+trajectory_msgs_DIR:PATH=/opt/ros/indigo/share/trajectory_msgs/cmake
+
+//The directory containing a CMake configuration file for visualization_msgs.
+visualization_msgs_DIR:PATH=/opt/ros/indigo/share/visualization_msgs/cmake
 
 //Value Computed by CMake
 wanderbot_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/wanderbot
@@ -399,6 +570,10 @@ xmlrpcpp_DIR:PATH=/opt/ros/indigo/share/xmlrpcpp/cmake
 # INTERNAL cache entries
 ########################
 
+//ADVANCED property for variable: Boost_DIR
+Boost_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_INCLUDE_DIR
+Boost_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //catkin environment
 CATKIN_ENV:INTERNAL=/home/mkhuthir/learnROS/build/catkin_generated/env_cached.sh
 CATKIN_TEST_RESULTS_DIR:INTERNAL=/home/mkhuthir/learnROS/build/test_results
@@ -496,7 +671,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=6
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=18
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -537,10 +712,48 @@ CMAKE_UNAME:INTERNAL=/bin/uname
 CMAKE_USE_RELATIVE_PATHS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding PROTOBUF
+FIND_PACKAGE_MESSAGE_DETAILS_PROTOBUF:INTERNAL=[/usr/lib/x86_64-linux-gnu/libprotobuf.so][/usr/include][v()]
+//Details about finding PkgConfig
+FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.26()]
 //Details about finding PythonInterp
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.6()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+GAZEBO_CFLAGS:INTERNAL=-I/usr/include/gazebo-2.2;-I/usr/include/sdformat-1.4
+GAZEBO_CFLAGS_I:INTERNAL=
+GAZEBO_CFLAGS_OTHER:INTERNAL=
+GAZEBO_FOUND:INTERNAL=1
+GAZEBO_INCLUDEDIR:INTERNAL=/usr/include
+GAZEBO_INCLUDE_DIRS:INTERNAL=/usr/include/gazebo-2.2;/usr/include/sdformat-1.4
+GAZEBO_LDFLAGS:INTERNAL=-Wl,-rpath,/usr/lib/x86_64-linux-gnu,-rpath,/usr/lib/x86_64-linux-gnu/gazebo-2.2/plugins;-L/usr/lib/x86_64-linux-gnu/gazebo-2.2/plugins;-lgazebo_transport;-lgazebo_physics;-lgazebo_sensors;-lgazebo_rendering;-lgazebo_gui;-lsdformat;-lgazebo_msgs;-lgazebo_math;-lgazebo_common;-lgazebo
+GAZEBO_LDFLAGS_OTHER:INTERNAL=-Wl,-rpath,/usr/lib/x86_64-linux-gnu,-rpath,/usr/lib/x86_64-linux-gnu/gazebo-2.2/plugins
+GAZEBO_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+GAZEBO_LIBRARIES:INTERNAL=gazebo_transport;gazebo_physics;gazebo_sensors;gazebo_rendering;gazebo_gui;sdformat;gazebo_msgs;gazebo_math;gazebo_common;gazebo
+GAZEBO_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu/gazebo-2.2/plugins
+GAZEBO_LIBS:INTERNAL=
+GAZEBO_LIBS_L:INTERNAL=
+GAZEBO_LIBS_OTHER:INTERNAL=
+GAZEBO_LIBS_PATHS:INTERNAL=
+GAZEBO_PREFIX:INTERNAL=/usr
+GAZEBO_STATIC_CFLAGS:INTERNAL=-I/usr/include/gazebo-2.2;-I/usr/include/sdformat-1.4
+GAZEBO_STATIC_CFLAGS_I:INTERNAL=
+GAZEBO_STATIC_CFLAGS_OTHER:INTERNAL=
+GAZEBO_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/gazebo-2.2;/usr/include/sdformat-1.4
+GAZEBO_STATIC_LDFLAGS:INTERNAL=-Wl,-rpath,/usr/lib/x86_64-linux-gnu,-rpath,/usr/lib/x86_64-linux-gnu/gazebo-2.2/plugins;-L/usr/lib/x86_64-linux-gnu/gazebo-2.2/plugins;-lgazebo_transport;-lgazebo_physics;-lgazebo_sensors;-lgazebo_rendering;-lgazebo_gui;-lsdformat;-lgazebo_msgs;-lgazebo_math;-lgazebo_common;-lgazebo
+GAZEBO_STATIC_LDFLAGS_OTHER:INTERNAL=-Wl,-rpath,/usr/lib/x86_64-linux-gnu,-rpath,/usr/lib/x86_64-linux-gnu/gazebo-2.2/plugins
+GAZEBO_STATIC_LIBDIR:INTERNAL=
+GAZEBO_STATIC_LIBRARIES:INTERNAL=gazebo_transport;gazebo_physics;gazebo_sensors;gazebo_rendering;gazebo_gui;sdformat;gazebo_msgs;gazebo_math;gazebo_common;gazebo
+GAZEBO_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu/gazebo-2.2/plugins
+GAZEBO_STATIC_LIBS:INTERNAL=
+GAZEBO_STATIC_LIBS_L:INTERNAL=
+GAZEBO_STATIC_LIBS_OTHER:INTERNAL=
+GAZEBO_STATIC_LIBS_PATHS:INTERNAL=
+GAZEBO_VERSION:INTERNAL=2.2.6
+GAZEBO_gazebo_INCLUDEDIR:INTERNAL=
+GAZEBO_gazebo_LIBDIR:INTERNAL=
+GAZEBO_gazebo_PREFIX:INTERNAL=
+GAZEBO_gazebo_VERSION:INTERNAL=
 GTEST_FROM_SOURCE_FOUND:INTERNAL=TRUE
 GTEST_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/usr/include
 GTEST_FROM_SOURCE_LIBRARIES:INTERNAL=gtest
@@ -556,10 +769,35 @@ GTEST_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 GTEST_MAIN_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GTEST_MAIN_LIBRARY_DEBUG
 GTEST_MAIN_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
+PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PROTOBUF_INCLUDE_DIR
+PROTOBUF_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PROTOBUF_LIBRARY
+PROTOBUF_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PROTOBUF_LIBRARY_DEBUG
+PROTOBUF_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PROTOBUF_LITE_LIBRARY
+PROTOBUF_LITE_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PROTOBUF_LITE_LIBRARY_DEBUG
+PROTOBUF_LITE_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PROTOBUF_PROTOC_EXECUTABLE
+PROTOBUF_PROTOC_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PROTOBUF_PROTOC_LIBRARY
+PROTOBUF_PROTOC_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PROTOBUF_PROTOC_LIBRARY_DEBUG
+PROTOBUF_PROTOC_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //This needs to be in PYTHONPATH when 'setup.py install' is called.
 //  And it needs to match.  But setuptools won't tell us where
 // it will install things.
 PYTHON_INSTALL_DIR:INTERNAL=lib/python2.7/dist-packages
+//Components requested for this build tree.
+_Boost_COMPONENTS_SEARCHED:INTERNAL=
+//Last used Boost_INCLUDE_DIR value.
+_Boost_INCLUDE_DIR_LAST:INTERNAL=/usr/include
+//Last used Boost_USE_MULTITHREADED value.
+_Boost_USE_MULTITHREADED_LAST:INTERNAL=TRUE
+__pkg_config_checked_GAZEBO:INTERNAL=1
 

@@ -1,0 +1,8 @@
+prefix=/home/mkhuthir/learnROS/devel
+
+Name: r2_control
+Description: Description of r2_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mkhuthir/learnROS/devel/lib 
+Requires: 
