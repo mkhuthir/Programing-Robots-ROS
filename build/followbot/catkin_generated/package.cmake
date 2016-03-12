@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "followbot")
+set(followbot_MAINTAINER "mkhuthir <mkhuthir@todo.todo>")
+set(followbot_DEPRECATED "")
+set(followbot_VERSION "0.0.0")
+set(followbot_BUILD_DEPENDS )
+set(followbot_RUN_DEPENDS )
+set(followbot_BUILDTOOL_DEPENDS "catkin")

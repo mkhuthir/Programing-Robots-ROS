@@ -1,0 +1,8 @@
+prefix=/home/mkhuthir/learnROS/install
+
+Name: followbot
+Description: Description of followbot
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mkhuthir/learnROS/install/lib 
+Requires: 

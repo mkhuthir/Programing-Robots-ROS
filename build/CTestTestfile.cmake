@@ -5,6 +5,7 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 SUBDIRS(gtest)
+SUBDIRS(followbot)
 SUBDIRS(mapping)
 SUBDIRS(chessbot/src/nasa_r2_common/nasa_r2_common)
 SUBDIRS(chessbot/src/nasa_r2_simulator/nasa_r2_simulator)

@@ -10,5 +10,3 @@
 export LD_LIBRARY_PATH="/home/mkhuthir/learnROS/src/chessbot/devel/lib/x86_64-linux-gnu:/home/mkhuthir/learnROS/devel/lib/x86_64-linux-gnu:/opt/ros/indigo/lib/x86_64-linux-gnu:/home/mkhuthir/learnROS/src/chessbot/devel/lib:/home/mkhuthir/learnROS/devel/lib:/opt/ros/indigo/lib"
 export PKG_CONFIG_PATH="/home/mkhuthir/learnROS/src/chessbot/devel/lib/x86_64-linux-gnu/pkgconfig:/home/mkhuthir/learnROS/devel/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/indigo/lib/x86_64-linux-gnu/pkgconfig:/home/mkhuthir/learnROS/src/chessbot/devel/lib/pkgconfig:/home/mkhuthir/learnROS/devel/lib/pkgconfig:/opt/ros/indigo/lib/pkgconfig"
 export PWD="/home/mkhuthir/learnROS/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/mkhuthir/learnROS/src/chessbot/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/mkhuthir/learnROS/src/chessbot/src:$ROS_PACKAGE_PATH"

@@ -117,6 +117,7 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/mkhuthir/learnROS/build/gtest/cmake_install.cmake")
+  INCLUDE("/home/mkhuthir/learnROS/build/followbot/cmake_install.cmake")
   INCLUDE("/home/mkhuthir/learnROS/build/mapping/cmake_install.cmake")
   INCLUDE("/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_common/nasa_r2_common/cmake_install.cmake")
   INCLUDE("/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_simulator/nasa_r2_simulator/cmake_install.cmake")
