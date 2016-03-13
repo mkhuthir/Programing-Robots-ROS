@@ -1,2 +1,2 @@
-nasa_r2_common/nasa_r2_common:nasa_r2_common/nasa_r2_common_msgs:nasa_r2_common/r2_control:nasa_r2_common/r2_description:nasa_r2_common/r2_fullbody_moveit_config:nasa_r2_common/r2_moveit_config:nasa_r2_simulator/gazebo_gripper:nasa_r2_simulator/gazebo_interface:nasa_r2_simulator/gazebo_taskboard:nasa_r2_simulator/nasa_r2_simulator:nasa_r2_simulator/r2_gazebo
+
 -DCATKIN_DEVEL_PREFIX=/home/mkhuthir/learnROS/src/chessbot/devel -DCMAKE_INSTALL_PREFIX=/home/mkhuthir/learnROS/src/chessbot/install -G Unix Makefiles
