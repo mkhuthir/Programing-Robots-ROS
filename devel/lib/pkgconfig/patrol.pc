@@ -1,0 +1,8 @@
+prefix=/home/mkhuthir/learnROS/devel
+
+Name: patrol
+Description: Description of patrol
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mkhuthir/learnROS/devel/lib 
+Requires: 

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "stockroom_bot")
+set(stockroom_bot_MAINTAINER "Name of Maintainer <maintainer@example.com>")
+set(stockroom_bot_DEPRECATED "")
+set(stockroom_bot_VERSION "0.0.0")
+set(stockroom_bot_BUILD_DEPENDS "rospy")
+set(stockroom_bot_RUN_DEPENDS "rospy")
+set(stockroom_bot_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "patrol")
+set(patrol_MAINTAINER "mkhuthir <mkhuthir@todo.todo>")
+set(patrol_DEPRECATED "")
+set(patrol_VERSION "0.0.0")
+set(patrol_BUILD_DEPENDS )
+set(patrol_RUN_DEPENDS )
+set(patrol_BUILDTOOL_DEPENDS "catkin" "smach")

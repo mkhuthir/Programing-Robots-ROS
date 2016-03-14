@@ -443,7 +443,7 @@ nasa_r2_common_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/chessbot/src/nasa_r
 nasa_r2_common_msgs_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_common/nasa_r2_common_msgs
 
 //The directory containing a CMake configuration file for nasa_r2_common_msgs.
-nasa_r2_common_msgs_DIR:PATH=/home/mkhuthir/learnROS/src/chessbot/devel/share/nasa_r2_common_msgs/cmake
+nasa_r2_common_msgs_DIR:PATH=/home/mkhuthir/learnROS/devel/share/nasa_r2_common_msgs/cmake
 
 //Value Computed by CMake
 nasa_r2_common_msgs_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/chessbot/src/nasa_r2_common/nasa_r2_common_msgs
@@ -462,6 +462,12 @@ navigation_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/navigation
 
 //Path to a library.
 onelib:FILEPATH=/usr/lib/x86_64-linux-gnu/libsdformat.so
+
+//Value Computed by CMake
+patrol_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/patrol
+
+//Value Computed by CMake
+patrol_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/patrol
 
 //Value Computed by CMake
 r2_control_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/chessbot/src/nasa_r2_common/r2_control
@@ -534,6 +540,12 @@ std_msgs_DIR:PATH=/opt/ros/indigo/share/std_msgs/cmake
 
 //The directory containing a CMake configuration file for std_srvs.
 std_srvs_DIR:PATH=/opt/ros/indigo/share/std_srvs/cmake
+
+//Value Computed by CMake
+stockroom_bot_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/stockroom_bot
+
+//Value Computed by CMake
+stockroom_bot_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/stockroom_bot
 
 //Value Computed by CMake
 teleopbot_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/teleopbot
@@ -677,7 +689,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=8
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=21
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

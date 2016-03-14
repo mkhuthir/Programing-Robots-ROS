@@ -19,7 +19,7 @@ SET(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/mkhuthir/learnROS/src/chessbot/src/nasa_r2_simulator/gazebo_interface/include"
   "/usr/include/gazebo-2.2"
   "/usr/include/sdformat-1.4"
-  "/home/mkhuthir/learnROS/src/chessbot/devel/include"
+  "/home/mkhuthir/learnROS/devel/include"
   "/opt/ros/indigo/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
