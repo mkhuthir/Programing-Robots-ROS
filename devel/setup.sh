@@ -38,6 +38,14 @@ export PATH
 export PKG_CONFIG_PATH
 export PYTHONPATH
 
+#By Muthanna
+export GAZEBO_MASTER_URI=http://localhost:11345
+export GAZEBO_MODEL_DATABASE_URI=http://gazebosim.org/models
+export GAZEBO_RESOURCE_PATH=/usr/share/gazebo-2.2:/usr/share/gazebo_models
+export GAZEBO_PLUGIN_PATH=/usr/lib/i386-linux-gnu/gazebo-2.2/plugins
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/lib/i386-linux-gnu/gazebo-2.2/plugins
+export OGRE_RESOURCE_PATH=/usr/lib/i386-linux-gnu/OGRE-1.8.0
+
 # remember type of shell if not already set
 if [ -z "$CATKIN_SHELL" ]; then
   CATKIN_SHELL=sh
