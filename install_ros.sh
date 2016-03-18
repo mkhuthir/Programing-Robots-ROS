@@ -44,3 +44,8 @@ sudo apt-get install ros-indigo-object-recognition-*
 sudo apt-get install python-pip
 sudo pip install pgnparser
 
+#instal ALVAR marker tracker
+sudo apt-get install ros-indigo-ar-track-alvar*
+sudo apt-get install imagemagick
+
+
