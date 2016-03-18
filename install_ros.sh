@@ -26,4 +26,17 @@ sudo rosdep update
 
 #install turtlebot gazebo sim
 sudo apt-get install ros-indigo-turtlebot-gazebo
+sudo apt-get install ros-indigo-turtlebot-stage
+sudo apt-get install ros-indigo-willow-maps
+sudo apt-get install ros-indigo-turtlebot-teleop
+
+#install NASA/GM R2 sim
+sudo apt-get install ros-indigo-ros-control
+sudo apt-get install ros-indigo-gazebo-ros-control
+sudo apt-get install ros-indigo-joint-state-controller
+sudo apt-get install ros-indigo-effort-controllers
+sudo apt-get install ros-indigo-joint-trajectory-controller
+sudo apt-get install ros-indigo-moveit*
+sudo apt-get install ros-indigo-octomap*
+sudo apt-get install ros-indigo-object-recognition-*
 
