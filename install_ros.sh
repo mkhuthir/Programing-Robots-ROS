@@ -40,3 +40,7 @@ sudo apt-get install ros-indigo-moveit*
 sudo apt-get install ros-indigo-octomap*
 sudo apt-get install ros-indigo-object-recognition-*
 
+#install python-pip and pgnparser
+sudo apt-get install python-pip
+sudo pip install pgnparser
+
