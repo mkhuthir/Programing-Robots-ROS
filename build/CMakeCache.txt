@@ -548,6 +548,12 @@ stockroom_bot_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/stockroom_bot
 stockroom_bot_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/stockroom_bot
 
 //Value Computed by CMake
+stuff_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/stuff
+
+//Value Computed by CMake
+stuff_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/stuff
+
+//Value Computed by CMake
 teleopbot_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/teleopbot
 
 //Value Computed by CMake
@@ -695,7 +701,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=11
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=23
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

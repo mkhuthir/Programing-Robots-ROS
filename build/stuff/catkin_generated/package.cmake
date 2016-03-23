@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "stuff")
+set(stuff_MAINTAINER "Muthanna Attyah <mkhuthir@gmail.com>")
+set(stuff_DEPRECATED "")
+set(stuff_VERSION "0.0.0")
+set(stuff_BUILD_DEPENDS "rospy" "message_generation" "actionlib_msgs")
+set(stuff_RUN_DEPENDS "rospy" "message_runtime" "actionlib_msgs")
+set(stuff_BUILDTOOL_DEPENDS "catkin")
