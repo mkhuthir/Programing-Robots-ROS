@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "tortoisebot")
+set(tortoisebot_MAINTAINER "mkhuthir <mkhuthir@todo.todo>")
+set(tortoisebot_DEPRECATED "")
+set(tortoisebot_VERSION "0.0.0")
+set(tortoisebot_BUILD_DEPENDS )
+set(tortoisebot_RUN_DEPENDS )
+set(tortoisebot_BUILDTOOL_DEPENDS "catkin")
