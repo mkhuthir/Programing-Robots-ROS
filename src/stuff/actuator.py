@@ -1,5 +1,5 @@
-# BEGIN ALL
 #!/usr/bin/python
+# BEGIN ALL
 
 from fake_actuator import FakeActuator
 
