@@ -49,5 +49,6 @@ sudo apt-get install ros-indigo-ar-track-alvar*
 sudo apt-get install imagemagick
 sudo apt-get install python-empy
 
-
-
+#install URDF tutorials
+sudo apt-get install ros-indigo-urdf-tutorial 
+sudo apt-get install liburdfdom-tools 
