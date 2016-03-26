@@ -30,6 +30,9 @@ sudo apt-get install ros-indigo-turtlebot-stage
 sudo apt-get install ros-indigo-willow-maps
 sudo apt-get install ros-indigo-turtlebot-teleop
 
+#install teleop-twist-keyboard
+sudo apt-get install ros-indigo-teleop-twist-keyboard
+
 #install NASA/GM R2 sim
 sudo apt-get install ros-indigo-ros-control
 sudo apt-get install ros-indigo-gazebo-ros-control
