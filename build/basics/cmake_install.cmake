@@ -41,7 +41,10 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basics/action" TYPE FILE FILES "/home/mkhuthir/learnROS/src/basics/action/Timer.action")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basics/action" TYPE FILE FILES
+    "/home/mkhuthir/learnROS/src/basics/action/Timer.action"
+    "/home/mkhuthir/learnROS/src/basics/action/Talk.action"
+    )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -53,6 +56,18 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/mkhuthir/learnROS/devel/share/basics/msg/TimerGoal.msg"
     "/home/mkhuthir/learnROS/devel/share/basics/msg/TimerResult.msg"
     "/home/mkhuthir/learnROS/devel/share/basics/msg/TimerFeedback.msg"
+    )
+ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+
+IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basics/msg" TYPE FILE FILES
+    "/home/mkhuthir/learnROS/devel/share/basics/msg/TalkAction.msg"
+    "/home/mkhuthir/learnROS/devel/share/basics/msg/TalkActionGoal.msg"
+    "/home/mkhuthir/learnROS/devel/share/basics/msg/TalkActionResult.msg"
+    "/home/mkhuthir/learnROS/devel/share/basics/msg/TalkActionFeedback.msg"
+    "/home/mkhuthir/learnROS/devel/share/basics/msg/TalkGoal.msg"
+    "/home/mkhuthir/learnROS/devel/share/basics/msg/TalkResult.msg"
+    "/home/mkhuthir/learnROS/devel/share/basics/msg/TalkFeedback.msg"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

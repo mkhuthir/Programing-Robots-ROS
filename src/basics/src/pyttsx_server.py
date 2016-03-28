@@ -1,7 +1,9 @@
 #! /usr/bin/python
+
 import rospy
 import threading, time, pyttsx
 import actionlib
+
 from basics.msg import TalkAction, TalkGoal, TalkResult
 
 class TalkNode():

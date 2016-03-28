@@ -45,22 +45,64 @@ CMAKE_BINARY_DIR = /home/mkhuthir/learnROS/build
 # Include the progress variables for this target.
 include basics/CMakeFiles/basics_generate_messages_cpp.dir/progress.make
 
+basics/CMakeFiles/basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TalkResult.h
+basics/CMakeFiles/basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TalkActionFeedback.h
 basics/CMakeFiles/basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TimerGoal.h
+basics/CMakeFiles/basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TalkFeedback.h
+basics/CMakeFiles/basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TalkActionGoal.h
 basics/CMakeFiles/basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TimerAction.h
 basics/CMakeFiles/basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TimerActionResult.h
 basics/CMakeFiles/basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TimerResult.h
 basics/CMakeFiles/basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TimerActionGoal.h
+basics/CMakeFiles/basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TalkAction.h
+basics/CMakeFiles/basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TalkGoal.h
 basics/CMakeFiles/basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/Complex.h
 basics/CMakeFiles/basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TimerFeedback.h
 basics/CMakeFiles/basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TimerActionFeedback.h
+basics/CMakeFiles/basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TalkActionResult.h
 basics/CMakeFiles/basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/WordCount.h
+
+/home/mkhuthir/learnROS/devel/include/basics/TalkResult.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/mkhuthir/learnROS/devel/include/basics/TalkResult.h: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkResult.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkResult.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from basics/TalkResult.msg"
+	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mkhuthir/learnROS/devel/share/basics/msg/TalkResult.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/include/basics -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/mkhuthir/learnROS/devel/include/basics/TalkActionFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/mkhuthir/learnROS/devel/include/basics/TalkActionFeedback.h: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkActionFeedback.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkActionFeedback.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkActionFeedback.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkActionFeedback.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkActionFeedback.h: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkFeedback.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkActionFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from basics/TalkActionFeedback.msg"
+	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mkhuthir/learnROS/devel/share/basics/msg/TalkActionFeedback.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/include/basics -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /home/mkhuthir/learnROS/devel/include/basics/TimerGoal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /home/mkhuthir/learnROS/devel/include/basics/TimerGoal.h: /home/mkhuthir/learnROS/devel/share/basics/msg/TimerGoal.msg
 /home/mkhuthir/learnROS/devel/include/basics/TimerGoal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from basics/TimerGoal.msg"
 	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mkhuthir/learnROS/devel/share/basics/msg/TimerGoal.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/include/basics -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/mkhuthir/learnROS/devel/include/basics/TalkFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/mkhuthir/learnROS/devel/include/basics/TalkFeedback.h: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkFeedback.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from basics/TalkFeedback.msg"
+	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mkhuthir/learnROS/devel/share/basics/msg/TalkFeedback.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/include/basics -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/mkhuthir/learnROS/devel/include/basics/TalkActionGoal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/mkhuthir/learnROS/devel/include/basics/TalkActionGoal.h: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkActionGoal.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkActionGoal.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkActionGoal.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkActionGoal.h: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkGoal.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkActionGoal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from basics/TalkActionGoal.msg"
+	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mkhuthir/learnROS/devel/share/basics/msg/TalkActionGoal.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/include/basics -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /home/mkhuthir/learnROS/devel/include/basics/TimerAction.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /home/mkhuthir/learnROS/devel/include/basics/TimerAction.h: /home/mkhuthir/learnROS/devel/share/basics/msg/TimerAction.msg
@@ -74,7 +116,7 @@ basics/CMakeFiles/basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/in
 /home/mkhuthir/learnROS/devel/include/basics/TimerAction.h: /home/mkhuthir/learnROS/devel/share/basics/msg/TimerActionResult.msg
 /home/mkhuthir/learnROS/devel/include/basics/TimerAction.h: /home/mkhuthir/learnROS/devel/share/basics/msg/TimerFeedback.msg
 /home/mkhuthir/learnROS/devel/include/basics/TimerAction.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from basics/TimerAction.msg"
 	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mkhuthir/learnROS/devel/share/basics/msg/TimerAction.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/include/basics -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -85,14 +127,14 @@ basics/CMakeFiles/basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/in
 /home/mkhuthir/learnROS/devel/include/basics/TimerActionResult.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
 /home/mkhuthir/learnROS/devel/include/basics/TimerActionResult.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /home/mkhuthir/learnROS/devel/include/basics/TimerActionResult.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from basics/TimerActionResult.msg"
 	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mkhuthir/learnROS/devel/share/basics/msg/TimerActionResult.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/include/basics -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /home/mkhuthir/learnROS/devel/include/basics/TimerResult.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /home/mkhuthir/learnROS/devel/include/basics/TimerResult.h: /home/mkhuthir/learnROS/devel/share/basics/msg/TimerResult.msg
 /home/mkhuthir/learnROS/devel/include/basics/TimerResult.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from basics/TimerResult.msg"
 	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mkhuthir/learnROS/devel/share/basics/msg/TimerResult.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/include/basics -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -102,21 +144,44 @@ basics/CMakeFiles/basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/in
 /home/mkhuthir/learnROS/devel/include/basics/TimerActionGoal.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
 /home/mkhuthir/learnROS/devel/include/basics/TimerActionGoal.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /home/mkhuthir/learnROS/devel/include/basics/TimerActionGoal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from basics/TimerActionGoal.msg"
 	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mkhuthir/learnROS/devel/share/basics/msg/TimerActionGoal.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/include/basics -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/mkhuthir/learnROS/devel/include/basics/TalkAction.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/mkhuthir/learnROS/devel/include/basics/TalkAction.h: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkAction.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkAction.h: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkGoal.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkAction.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkAction.h: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkActionFeedback.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkAction.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkAction.h: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkActionGoal.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkAction.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkAction.h: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkFeedback.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkAction.h: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkActionResult.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkAction.h: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkResult.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkAction.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from basics/TalkAction.msg"
+	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mkhuthir/learnROS/devel/share/basics/msg/TalkAction.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/include/basics -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/mkhuthir/learnROS/devel/include/basics/TalkGoal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/mkhuthir/learnROS/devel/include/basics/TalkGoal.h: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkGoal.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkGoal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from basics/TalkGoal.msg"
+	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mkhuthir/learnROS/devel/share/basics/msg/TalkGoal.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/include/basics -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /home/mkhuthir/learnROS/devel/include/basics/Complex.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /home/mkhuthir/learnROS/devel/include/basics/Complex.h: /home/mkhuthir/learnROS/src/basics/msg/Complex.msg
 /home/mkhuthir/learnROS/devel/include/basics/Complex.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from basics/Complex.msg"
 	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mkhuthir/learnROS/src/basics/msg/Complex.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/include/basics -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /home/mkhuthir/learnROS/devel/include/basics/TimerFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /home/mkhuthir/learnROS/devel/include/basics/TimerFeedback.h: /home/mkhuthir/learnROS/devel/share/basics/msg/TimerFeedback.msg
 /home/mkhuthir/learnROS/devel/include/basics/TimerFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from basics/TimerFeedback.msg"
 	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mkhuthir/learnROS/devel/share/basics/msg/TimerFeedback.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/include/basics -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -127,27 +192,45 @@ basics/CMakeFiles/basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/in
 /home/mkhuthir/learnROS/devel/include/basics/TimerActionFeedback.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
 /home/mkhuthir/learnROS/devel/include/basics/TimerActionFeedback.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /home/mkhuthir/learnROS/devel/include/basics/TimerActionFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from basics/TimerActionFeedback.msg"
 	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mkhuthir/learnROS/devel/share/basics/msg/TimerActionFeedback.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/include/basics -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/mkhuthir/learnROS/devel/include/basics/TalkActionResult.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/mkhuthir/learnROS/devel/include/basics/TalkActionResult.h: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkActionResult.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkActionResult.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkActionResult.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkActionResult.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkActionResult.h: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkResult.msg
+/home/mkhuthir/learnROS/devel/include/basics/TalkActionResult.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from basics/TalkActionResult.msg"
+	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mkhuthir/learnROS/devel/share/basics/msg/TalkActionResult.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/include/basics -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /home/mkhuthir/learnROS/devel/include/basics/WordCount.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /home/mkhuthir/learnROS/devel/include/basics/WordCount.h: /home/mkhuthir/learnROS/src/basics/srv/WordCount.srv
 /home/mkhuthir/learnROS/devel/include/basics/WordCount.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /home/mkhuthir/learnROS/devel/include/basics/WordCount.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from basics/WordCount.srv"
 	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/mkhuthir/learnROS/src/basics/srv/WordCount.srv -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/include/basics -e /opt/ros/indigo/share/gencpp/cmake/..
 
 basics_generate_messages_cpp: basics/CMakeFiles/basics_generate_messages_cpp
+basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TalkResult.h
+basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TalkActionFeedback.h
 basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TimerGoal.h
+basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TalkFeedback.h
+basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TalkActionGoal.h
 basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TimerAction.h
 basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TimerActionResult.h
 basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TimerResult.h
 basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TimerActionGoal.h
+basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TalkAction.h
+basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TalkGoal.h
 basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/Complex.h
 basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TimerFeedback.h
 basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TimerActionFeedback.h
+basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/TalkActionResult.h
 basics_generate_messages_cpp: /home/mkhuthir/learnROS/devel/include/basics/WordCount.h
 basics_generate_messages_cpp: basics/CMakeFiles/basics_generate_messages_cpp.dir/build.make
 .PHONY : basics_generate_messages_cpp

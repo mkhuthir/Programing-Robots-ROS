@@ -45,23 +45,61 @@ CMAKE_BINARY_DIR = /home/mkhuthir/learnROS/build
 # Include the progress variables for this target.
 include basics/CMakeFiles/basics_generate_messages_py.dir/progress.make
 
+basics/CMakeFiles/basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkResult.py
+basics/CMakeFiles/basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionFeedback.py
 basics/CMakeFiles/basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerGoal.py
+basics/CMakeFiles/basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkFeedback.py
+basics/CMakeFiles/basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionGoal.py
 basics/CMakeFiles/basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerAction.py
 basics/CMakeFiles/basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerActionResult.py
 basics/CMakeFiles/basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerResult.py
 basics/CMakeFiles/basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerActionGoal.py
+basics/CMakeFiles/basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkAction.py
+basics/CMakeFiles/basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkGoal.py
 basics/CMakeFiles/basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_Complex.py
 basics/CMakeFiles/basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerFeedback.py
 basics/CMakeFiles/basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerActionFeedback.py
+basics/CMakeFiles/basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionResult.py
 basics/CMakeFiles/basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/_WordCount.py
 basics/CMakeFiles/basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/__init__.py
 basics/CMakeFiles/basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/__init__.py
 
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkResult.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkResult.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkResult.msg
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG basics/TalkResult"
+	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mkhuthir/learnROS/devel/share/basics/msg/TalkResult.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg
+
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionFeedback.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionFeedback.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkActionFeedback.msg
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionFeedback.py: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionFeedback.py: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionFeedback.py: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionFeedback.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkFeedback.msg
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG basics/TalkActionFeedback"
+	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mkhuthir/learnROS/devel/share/basics/msg/TalkActionFeedback.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg
+
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerGoal.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerGoal.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TimerGoal.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG basics/TimerGoal"
 	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mkhuthir/learnROS/devel/share/basics/msg/TimerGoal.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg
+
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkFeedback.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkFeedback.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkFeedback.msg
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG basics/TalkFeedback"
+	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mkhuthir/learnROS/devel/share/basics/msg/TalkFeedback.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg
+
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionGoal.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionGoal.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkActionGoal.msg
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionGoal.py: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionGoal.py: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionGoal.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkGoal.msg
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG basics/TalkActionGoal"
+	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mkhuthir/learnROS/devel/share/basics/msg/TalkActionGoal.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg
 
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerAction.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerAction.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TimerAction.msg
@@ -74,7 +112,7 @@ basics/CMakeFiles/basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerAction.py: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerAction.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TimerActionResult.msg
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerAction.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TimerFeedback.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG basics/TimerAction"
 	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mkhuthir/learnROS/devel/share/basics/msg/TimerAction.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg
 
@@ -84,13 +122,13 @@ basics/CMakeFiles/basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerActionResult.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TimerResult.msg
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerActionResult.py: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerActionResult.py: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG basics/TimerActionResult"
 	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mkhuthir/learnROS/devel/share/basics/msg/TimerActionResult.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg
 
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerResult.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerResult.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TimerResult.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG basics/TimerResult"
 	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mkhuthir/learnROS/devel/share/basics/msg/TimerResult.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg
 
@@ -99,19 +137,40 @@ basics/CMakeFiles/basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerActionGoal.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TimerGoal.msg
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerActionGoal.py: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerActionGoal.py: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG basics/TimerActionGoal"
 	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mkhuthir/learnROS/devel/share/basics/msg/TimerActionGoal.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg
 
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkAction.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkAction.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkAction.msg
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkAction.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkGoal.msg
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkAction.py: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkAction.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkActionFeedback.msg
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkAction.py: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkAction.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkActionGoal.msg
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkAction.py: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkAction.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkFeedback.msg
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkAction.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkActionResult.msg
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkAction.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkResult.msg
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG basics/TalkAction"
+	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mkhuthir/learnROS/devel/share/basics/msg/TalkAction.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg
+
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkGoal.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkGoal.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkGoal.msg
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG basics/TalkGoal"
+	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mkhuthir/learnROS/devel/share/basics/msg/TalkGoal.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg
+
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_Complex.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_Complex.py: /home/mkhuthir/learnROS/src/basics/msg/Complex.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG basics/Complex"
 	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mkhuthir/learnROS/src/basics/msg/Complex.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg
 
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerFeedback.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerFeedback.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TimerFeedback.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG basics/TimerFeedback"
 	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mkhuthir/learnROS/devel/share/basics/msg/TimerFeedback.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg
 
@@ -121,53 +180,84 @@ basics/CMakeFiles/basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerActionFeedback.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TimerFeedback.msg
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerActionFeedback.py: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerActionFeedback.py: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG basics/TimerActionFeedback"
 	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mkhuthir/learnROS/devel/share/basics/msg/TimerActionFeedback.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg
 
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionResult.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionResult.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkActionResult.msg
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionResult.py: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionResult.py: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionResult.py: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionResult.py: /home/mkhuthir/learnROS/devel/share/basics/msg/TalkResult.msg
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG basics/TalkActionResult"
+	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mkhuthir/learnROS/devel/share/basics/msg/TalkActionResult.msg -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg
+
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/_WordCount.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/_WordCount.py: /home/mkhuthir/learnROS/src/basics/srv/WordCount.srv
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV basics/WordCount"
 	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/mkhuthir/learnROS/src/basics/srv/WordCount.srv -Ibasics:/home/mkhuthir/learnROS/src/basics/msg -Ibasics:/home/mkhuthir/learnROS/devel/share/basics/msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p basics -o /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv
 
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/__init__.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkResult.py
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionFeedback.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerGoal.py
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkFeedback.py
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionGoal.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerAction.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerActionResult.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerResult.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerActionGoal.py
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkAction.py
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkGoal.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_Complex.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerFeedback.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerActionFeedback.py
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionResult.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/_WordCount.py
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python msg __init__.py for basics"
 	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg --initpy
 
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/__init__.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkResult.py
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionFeedback.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerGoal.py
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkFeedback.py
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionGoal.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerAction.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerActionResult.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerResult.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerActionGoal.py
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkAction.py
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkGoal.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_Complex.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerFeedback.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerActionFeedback.py
+/home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionResult.py
 /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/__init__.py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/_WordCount.py
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mkhuthir/learnROS/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python srv __init__.py for basics"
 	cd /home/mkhuthir/learnROS/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv --initpy
 
 basics_generate_messages_py: basics/CMakeFiles/basics_generate_messages_py
+basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkResult.py
+basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionFeedback.py
 basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerGoal.py
+basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkFeedback.py
+basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionGoal.py
 basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerAction.py
 basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerActionResult.py
 basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerResult.py
 basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerActionGoal.py
+basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkAction.py
+basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkGoal.py
 basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_Complex.py
 basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerFeedback.py
 basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TimerActionFeedback.py
+basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/_TalkActionResult.py
 basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/_WordCount.py
 basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/msg/__init__.py
 basics_generate_messages_py: /home/mkhuthir/learnROS/devel/lib/python2.7/dist-packages/basics/srv/__init__.py

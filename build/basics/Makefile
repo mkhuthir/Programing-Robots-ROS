@@ -164,6 +164,104 @@ _basics_generate_messages_check_deps_Complex/fast:
 .PHONY : _basics_generate_messages_check_deps_Complex/fast
 
 # Convenience name for target.
+basics/CMakeFiles/_basics_generate_messages_check_deps_TalkAction.dir/rule:
+	cd /home/mkhuthir/learnROS/build && $(MAKE) -f CMakeFiles/Makefile2 basics/CMakeFiles/_basics_generate_messages_check_deps_TalkAction.dir/rule
+.PHONY : basics/CMakeFiles/_basics_generate_messages_check_deps_TalkAction.dir/rule
+
+# Convenience name for target.
+_basics_generate_messages_check_deps_TalkAction: basics/CMakeFiles/_basics_generate_messages_check_deps_TalkAction.dir/rule
+.PHONY : _basics_generate_messages_check_deps_TalkAction
+
+# fast build rule for target.
+_basics_generate_messages_check_deps_TalkAction/fast:
+	cd /home/mkhuthir/learnROS/build && $(MAKE) -f basics/CMakeFiles/_basics_generate_messages_check_deps_TalkAction.dir/build.make basics/CMakeFiles/_basics_generate_messages_check_deps_TalkAction.dir/build
+.PHONY : _basics_generate_messages_check_deps_TalkAction/fast
+
+# Convenience name for target.
+basics/CMakeFiles/_basics_generate_messages_check_deps_TalkActionFeedback.dir/rule:
+	cd /home/mkhuthir/learnROS/build && $(MAKE) -f CMakeFiles/Makefile2 basics/CMakeFiles/_basics_generate_messages_check_deps_TalkActionFeedback.dir/rule
+.PHONY : basics/CMakeFiles/_basics_generate_messages_check_deps_TalkActionFeedback.dir/rule
+
+# Convenience name for target.
+_basics_generate_messages_check_deps_TalkActionFeedback: basics/CMakeFiles/_basics_generate_messages_check_deps_TalkActionFeedback.dir/rule
+.PHONY : _basics_generate_messages_check_deps_TalkActionFeedback
+
+# fast build rule for target.
+_basics_generate_messages_check_deps_TalkActionFeedback/fast:
+	cd /home/mkhuthir/learnROS/build && $(MAKE) -f basics/CMakeFiles/_basics_generate_messages_check_deps_TalkActionFeedback.dir/build.make basics/CMakeFiles/_basics_generate_messages_check_deps_TalkActionFeedback.dir/build
+.PHONY : _basics_generate_messages_check_deps_TalkActionFeedback/fast
+
+# Convenience name for target.
+basics/CMakeFiles/_basics_generate_messages_check_deps_TalkActionGoal.dir/rule:
+	cd /home/mkhuthir/learnROS/build && $(MAKE) -f CMakeFiles/Makefile2 basics/CMakeFiles/_basics_generate_messages_check_deps_TalkActionGoal.dir/rule
+.PHONY : basics/CMakeFiles/_basics_generate_messages_check_deps_TalkActionGoal.dir/rule
+
+# Convenience name for target.
+_basics_generate_messages_check_deps_TalkActionGoal: basics/CMakeFiles/_basics_generate_messages_check_deps_TalkActionGoal.dir/rule
+.PHONY : _basics_generate_messages_check_deps_TalkActionGoal
+
+# fast build rule for target.
+_basics_generate_messages_check_deps_TalkActionGoal/fast:
+	cd /home/mkhuthir/learnROS/build && $(MAKE) -f basics/CMakeFiles/_basics_generate_messages_check_deps_TalkActionGoal.dir/build.make basics/CMakeFiles/_basics_generate_messages_check_deps_TalkActionGoal.dir/build
+.PHONY : _basics_generate_messages_check_deps_TalkActionGoal/fast
+
+# Convenience name for target.
+basics/CMakeFiles/_basics_generate_messages_check_deps_TalkActionResult.dir/rule:
+	cd /home/mkhuthir/learnROS/build && $(MAKE) -f CMakeFiles/Makefile2 basics/CMakeFiles/_basics_generate_messages_check_deps_TalkActionResult.dir/rule
+.PHONY : basics/CMakeFiles/_basics_generate_messages_check_deps_TalkActionResult.dir/rule
+
+# Convenience name for target.
+_basics_generate_messages_check_deps_TalkActionResult: basics/CMakeFiles/_basics_generate_messages_check_deps_TalkActionResult.dir/rule
+.PHONY : _basics_generate_messages_check_deps_TalkActionResult
+
+# fast build rule for target.
+_basics_generate_messages_check_deps_TalkActionResult/fast:
+	cd /home/mkhuthir/learnROS/build && $(MAKE) -f basics/CMakeFiles/_basics_generate_messages_check_deps_TalkActionResult.dir/build.make basics/CMakeFiles/_basics_generate_messages_check_deps_TalkActionResult.dir/build
+.PHONY : _basics_generate_messages_check_deps_TalkActionResult/fast
+
+# Convenience name for target.
+basics/CMakeFiles/_basics_generate_messages_check_deps_TalkFeedback.dir/rule:
+	cd /home/mkhuthir/learnROS/build && $(MAKE) -f CMakeFiles/Makefile2 basics/CMakeFiles/_basics_generate_messages_check_deps_TalkFeedback.dir/rule
+.PHONY : basics/CMakeFiles/_basics_generate_messages_check_deps_TalkFeedback.dir/rule
+
+# Convenience name for target.
+_basics_generate_messages_check_deps_TalkFeedback: basics/CMakeFiles/_basics_generate_messages_check_deps_TalkFeedback.dir/rule
+.PHONY : _basics_generate_messages_check_deps_TalkFeedback
+
+# fast build rule for target.
+_basics_generate_messages_check_deps_TalkFeedback/fast:
+	cd /home/mkhuthir/learnROS/build && $(MAKE) -f basics/CMakeFiles/_basics_generate_messages_check_deps_TalkFeedback.dir/build.make basics/CMakeFiles/_basics_generate_messages_check_deps_TalkFeedback.dir/build
+.PHONY : _basics_generate_messages_check_deps_TalkFeedback/fast
+
+# Convenience name for target.
+basics/CMakeFiles/_basics_generate_messages_check_deps_TalkGoal.dir/rule:
+	cd /home/mkhuthir/learnROS/build && $(MAKE) -f CMakeFiles/Makefile2 basics/CMakeFiles/_basics_generate_messages_check_deps_TalkGoal.dir/rule
+.PHONY : basics/CMakeFiles/_basics_generate_messages_check_deps_TalkGoal.dir/rule
+
+# Convenience name for target.
+_basics_generate_messages_check_deps_TalkGoal: basics/CMakeFiles/_basics_generate_messages_check_deps_TalkGoal.dir/rule
+.PHONY : _basics_generate_messages_check_deps_TalkGoal
+
+# fast build rule for target.
+_basics_generate_messages_check_deps_TalkGoal/fast:
+	cd /home/mkhuthir/learnROS/build && $(MAKE) -f basics/CMakeFiles/_basics_generate_messages_check_deps_TalkGoal.dir/build.make basics/CMakeFiles/_basics_generate_messages_check_deps_TalkGoal.dir/build
+.PHONY : _basics_generate_messages_check_deps_TalkGoal/fast
+
+# Convenience name for target.
+basics/CMakeFiles/_basics_generate_messages_check_deps_TalkResult.dir/rule:
+	cd /home/mkhuthir/learnROS/build && $(MAKE) -f CMakeFiles/Makefile2 basics/CMakeFiles/_basics_generate_messages_check_deps_TalkResult.dir/rule
+.PHONY : basics/CMakeFiles/_basics_generate_messages_check_deps_TalkResult.dir/rule
+
+# Convenience name for target.
+_basics_generate_messages_check_deps_TalkResult: basics/CMakeFiles/_basics_generate_messages_check_deps_TalkResult.dir/rule
+.PHONY : _basics_generate_messages_check_deps_TalkResult
+
+# fast build rule for target.
+_basics_generate_messages_check_deps_TalkResult/fast:
+	cd /home/mkhuthir/learnROS/build && $(MAKE) -f basics/CMakeFiles/_basics_generate_messages_check_deps_TalkResult.dir/build.make basics/CMakeFiles/_basics_generate_messages_check_deps_TalkResult.dir/build
+.PHONY : _basics_generate_messages_check_deps_TalkResult/fast
+
+# Convenience name for target.
 basics/CMakeFiles/_basics_generate_messages_check_deps_TimerAction.dir/rule:
 	cd /home/mkhuthir/learnROS/build && $(MAKE) -f CMakeFiles/Makefile2 basics/CMakeFiles/_basics_generate_messages_check_deps_TimerAction.dir/rule
 .PHONY : basics/CMakeFiles/_basics_generate_messages_check_deps_TimerAction.dir/rule
@@ -499,48 +597,6 @@ rosgraph_msgs_generate_messages_py/fast:
 	cd /home/mkhuthir/learnROS/build && $(MAKE) -f basics/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make basics/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
-# Convenience name for target.
-basics/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/mkhuthir/learnROS/build && $(MAKE) -f CMakeFiles/Makefile2 basics/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : basics/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: basics/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	cd /home/mkhuthir/learnROS/build && $(MAKE) -f basics/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make basics/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-basics/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/mkhuthir/learnROS/build && $(MAKE) -f CMakeFiles/Makefile2 basics/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : basics/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: basics/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	cd /home/mkhuthir/learnROS/build && $(MAKE) -f basics/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make basics/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-basics/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/mkhuthir/learnROS/build && $(MAKE) -f CMakeFiles/Makefile2 basics/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : basics/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_py: basics/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : std_msgs_generate_messages_py
-
-# fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	cd /home/mkhuthir/learnROS/build && $(MAKE) -f basics/CMakeFiles/std_msgs_generate_messages_py.dir/build.make basics/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -548,6 +604,13 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... _basics_generate_messages_check_deps_Complex"
+	@echo "... _basics_generate_messages_check_deps_TalkAction"
+	@echo "... _basics_generate_messages_check_deps_TalkActionFeedback"
+	@echo "... _basics_generate_messages_check_deps_TalkActionGoal"
+	@echo "... _basics_generate_messages_check_deps_TalkActionResult"
+	@echo "... _basics_generate_messages_check_deps_TalkFeedback"
+	@echo "... _basics_generate_messages_check_deps_TalkGoal"
+	@echo "... _basics_generate_messages_check_deps_TalkResult"
 	@echo "... _basics_generate_messages_check_deps_TimerAction"
 	@echo "... _basics_generate_messages_check_deps_TimerActionFeedback"
 	@echo "... _basics_generate_messages_check_deps_TimerActionGoal"
@@ -578,9 +641,6 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... std_msgs_generate_messages_py"
 	@echo "... test"
 .PHONY : help
 

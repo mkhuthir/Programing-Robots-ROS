@@ -1,7 +1,8 @@
 #! /usr/bin/python
-import rospy
 
+import rospy
 import actionlib
+
 from basics.msg import TalkAction, TalkGoal, TalkResult
 
 rospy.init_node('speaker_client')
