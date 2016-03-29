@@ -321,6 +321,18 @@ basics_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/basics
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/indigo/share/catkin/cmake
 
+//Value Computed by CMake
+cougarbot_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/cougarbot
+
+//Value Computed by CMake
+cougarbot_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/cougarbot
+
+//Value Computed by CMake
+cougarbot_movit_config_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/cougarbot_movit_config
+
+//Value Computed by CMake
+cougarbot_movit_config_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/cougarbot_movit_config
+
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/indigo/share/cpp_common/cmake
 
@@ -701,7 +713,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=12
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=14
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

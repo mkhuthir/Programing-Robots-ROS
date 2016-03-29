@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "cougarbot_movit_config")
+set(cougarbot_movit_config_MAINTAINER "MoveIt Setup Assistant <assistant@moveit.ros.org>")
+set(cougarbot_movit_config_DEPRECATED "")
+set(cougarbot_movit_config_VERSION "0.2.0")
+set(cougarbot_movit_config_BUILD_DEPENDS "cougarbot")
+set(cougarbot_movit_config_RUN_DEPENDS "moveit_ros_move_group" "moveit_planners_ompl" "moveit_ros_visualization" "joint_state_publisher" "robot_state_publisher" "xacro" "cougarbot")
+set(cougarbot_movit_config_BUILDTOOL_DEPENDS "catkin")

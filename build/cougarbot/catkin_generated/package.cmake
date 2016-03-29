@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "cougarbot")
+set(cougarbot_MAINTAINER "mkhuthir <mkhuthir@todo.todo>")
+set(cougarbot_DEPRECATED "")
+set(cougarbot_VERSION "0.0.0")
+set(cougarbot_BUILD_DEPENDS "rospy")
+set(cougarbot_RUN_DEPENDS "rospy")
+set(cougarbot_BUILDTOOL_DEPENDS "catkin")
