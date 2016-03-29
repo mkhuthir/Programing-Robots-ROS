@@ -1,8 +1,10 @@
 # learnROS
 
-'Programming Robots with ROS' book: catkin workspace (indigo)
+'<big>Programming Robots with ROS</big>' 
 
-Packages:
+ROS catkin workspace code from the above book, tested with ROS indigo/Ubuntu 14.04 LTS
+
+##Packages:
 	
 	basics
 	chessbot
