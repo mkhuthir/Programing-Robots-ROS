@@ -328,6 +328,12 @@ cougarbot_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/cougarbot
 cougarbot_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/cougarbot
 
 //Value Computed by CMake
+cougarbot_moveit_config_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/cougarbot_moveit_config
+
+//Value Computed by CMake
+cougarbot_moveit_config_SOURCE_DIR:STATIC=/home/mkhuthir/learnROS/src/cougarbot_moveit_config
+
+//Value Computed by CMake
 cougarbot_movit_config_BINARY_DIR:STATIC=/home/mkhuthir/learnROS/build/cougarbot_movit_config
 
 //Value Computed by CMake
