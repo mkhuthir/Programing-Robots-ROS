@@ -514,90 +514,6 @@ basics_genpy/fast:
 .PHONY : basics_genpy/fast
 
 # Convenience name for target.
-basics/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/mkhuthir/learnROS/build && $(MAKE) -f CMakeFiles/Makefile2 basics/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : basics/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: basics/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : roscpp_generate_messages_cpp
-
-# fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	cd /home/mkhuthir/learnROS/build && $(MAKE) -f basics/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make basics/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
-
-# Convenience name for target.
-basics/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/mkhuthir/learnROS/build && $(MAKE) -f CMakeFiles/Makefile2 basics/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : basics/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_lisp: basics/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : roscpp_generate_messages_lisp
-
-# fast build rule for target.
-roscpp_generate_messages_lisp/fast:
-	cd /home/mkhuthir/learnROS/build && $(MAKE) -f basics/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make basics/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-.PHONY : roscpp_generate_messages_lisp/fast
-
-# Convenience name for target.
-basics/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/mkhuthir/learnROS/build && $(MAKE) -f CMakeFiles/Makefile2 basics/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : basics/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_py: basics/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : roscpp_generate_messages_py
-
-# fast build rule for target.
-roscpp_generate_messages_py/fast:
-	cd /home/mkhuthir/learnROS/build && $(MAKE) -f basics/CMakeFiles/roscpp_generate_messages_py.dir/build.make basics/CMakeFiles/roscpp_generate_messages_py.dir/build
-.PHONY : roscpp_generate_messages_py/fast
-
-# Convenience name for target.
-basics/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/mkhuthir/learnROS/build && $(MAKE) -f CMakeFiles/Makefile2 basics/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : basics/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: basics/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/mkhuthir/learnROS/build && $(MAKE) -f basics/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make basics/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-basics/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/mkhuthir/learnROS/build && $(MAKE) -f CMakeFiles/Makefile2 basics/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : basics/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: basics/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/mkhuthir/learnROS/build && $(MAKE) -f basics/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make basics/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-basics/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/mkhuthir/learnROS/build && $(MAKE) -f CMakeFiles/Makefile2 basics/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : basics/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_py: basics/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_py/fast:
-	cd /home/mkhuthir/learnROS/build && $(MAKE) -f basics/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make basics/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-.PHONY : rosgraph_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 basics/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
 	cd /home/mkhuthir/learnROS/build && $(MAKE) -f CMakeFiles/Makefile2 basics/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : basics/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
@@ -677,12 +593,6 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... roscpp_generate_messages_lisp"
-	@echo "... roscpp_generate_messages_py"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
-	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
