@@ -1,8 +1,0 @@
-prefix=/home/mkhuthir/learnROS/devel
-
-Name: gazebo_taskboard
-Description: Description of gazebo_taskboard
-Version: 0.5.3
-Cflags: -I/home/mkhuthir/learnROS/devel/include -I/home/mkhuthir/learnROS/src/chessbot/src/nasa_r2_simulator/gazebo_taskboard/include
-Libs: -L/home/mkhuthir/learnROS/devel/lib 
-Requires: std_msgs

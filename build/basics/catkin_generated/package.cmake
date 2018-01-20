@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "basics")
-set(basics_MAINTAINER "Muthanna Attyah <mkhuthir@gmail.com>")
-set(basics_DEPRECATED "")
-set(basics_VERSION "0.0.0")
-set(basics_BUILD_DEPENDS "rospy" "message_generation" "actionlib_msgs")
-set(basics_RUN_DEPENDS "rospy" "message_runtime" "actionlib_msgs")
-set(basics_BUILDTOOL_DEPENDS "catkin")

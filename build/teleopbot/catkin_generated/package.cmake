@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "teleopbot")
-set(teleopbot_MAINTAINER "mkhuthir <mkhuthir@todo.todo>")
-set(teleopbot_DEPRECATED "")
-set(teleopbot_VERSION "0.0.0")
-set(teleopbot_BUILD_DEPENDS )
-set(teleopbot_RUN_DEPENDS )
-set(teleopbot_BUILDTOOL_DEPENDS "catkin")

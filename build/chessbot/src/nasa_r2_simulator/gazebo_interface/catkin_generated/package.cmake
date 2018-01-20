@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "gazebo_interface")
-set(gazebo_interface_MAINTAINER "Stephen Hart <stephen.hart@nasa.gov>, Allison Thackston <allison.thackston@nasa.gov>, David Lu!! <davidvlu@gmail.com>")
-set(gazebo_interface_DEPRECATED "")
-set(gazebo_interface_VERSION "0.5.3")
-set(gazebo_interface_BUILD_DEPENDS "roscpp" "rospy" "nasa_r2_common_msgs" "gazebo" "sensor_msgs" "std_msgs")
-set(gazebo_interface_RUN_DEPENDS "nasa_r2_common_msgs" "sensor_msgs")
-set(gazebo_interface_BUILDTOOL_DEPENDS "catkin")

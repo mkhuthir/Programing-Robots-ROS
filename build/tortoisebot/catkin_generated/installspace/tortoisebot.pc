@@ -1,8 +1,0 @@
-prefix=/home/mkhuthir/learnROS/install
-
-Name: tortoisebot
-Description: Description of tortoisebot
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/mkhuthir/learnROS/install/lib 
-Requires: 

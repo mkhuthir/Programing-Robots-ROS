@@ -1,8 +1,0 @@
-prefix=/home/mkhuthir/learnROS/install
-
-Name: gazebo_interface
-Description: Description of gazebo_interface
-Version: 0.5.3
-Cflags: -I/home/mkhuthir/learnROS/install/include
-Libs: -L/home/mkhuthir/learnROS/install/lib -lr2_gazebo
-Requires: nasa_r2_common_msgs sensor_msgs

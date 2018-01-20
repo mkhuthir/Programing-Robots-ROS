@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "mapping")
-set(mapping_MAINTAINER "mkhuthir <mkhuthir@todo.todo>")
-set(mapping_DEPRECATED "")
-set(mapping_VERSION "0.0.0")
-set(mapping_BUILD_DEPENDS )
-set(mapping_RUN_DEPENDS )
-set(mapping_BUILDTOOL_DEPENDS "catkin")

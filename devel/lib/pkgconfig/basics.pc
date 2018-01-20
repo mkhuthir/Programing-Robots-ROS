@@ -1,8 +1,0 @@
-prefix=/home/mkhuthir/learnROS/devel
-
-Name: basics
-Description: Description of basics
-Version: 0.0.0
-Cflags: -I/home/mkhuthir/learnROS/devel/include
-Libs: -L/home/mkhuthir/learnROS/devel/lib 
-Requires: message_runtime actionlib_msgs

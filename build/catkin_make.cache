@@ -1,2 +1,0 @@
-basics:cougarbot:cougarbot_moveit_config:cpp:followbot:mapping:navigation:patrol:stockroom_bot:stuff:teleopbot:tortoisebot:wanderbot
--DCATKIN_DEVEL_PREFIX=/home/mkhuthir/learnROS/devel -DCMAKE_INSTALL_PREFIX=/home/mkhuthir/learnROS/install -G Unix Makefiles

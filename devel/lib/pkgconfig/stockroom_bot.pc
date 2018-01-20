@@ -1,8 +1,0 @@
-prefix=/home/mkhuthir/learnROS/devel
-
-Name: stockroom_bot
-Description: Description of stockroom_bot
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/mkhuthir/learnROS/devel/lib 
-Requires: 

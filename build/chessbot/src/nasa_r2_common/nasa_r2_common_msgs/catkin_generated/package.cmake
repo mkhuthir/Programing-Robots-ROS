@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "nasa_r2_common_msgs")
-set(nasa_r2_common_msgs_MAINTAINER "Allison Thackston <allison.thackston@nasa.gov>")
-set(nasa_r2_common_msgs_DEPRECATED "")
-set(nasa_r2_common_msgs_VERSION "0.0.1")
-set(nasa_r2_common_msgs_BUILD_DEPENDS "message_generation" "message_runtime" "std_msgs" "visualization_msgs" "geometry_msgs" "trajectory_msgs")
-set(nasa_r2_common_msgs_RUN_DEPENDS "message_generation" "message_runtime" "std_msgs" "visualization_msgs" "geometry_msgs" "trajectory_msgs")
-set(nasa_r2_common_msgs_BUILDTOOL_DEPENDS "catkin")

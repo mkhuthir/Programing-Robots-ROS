@@ -1,8 +1,0 @@
-prefix=/home/mkhuthir/learnROS/devel
-
-Name: cpp
-Description: Description of cpp
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/mkhuthir/learnROS/devel/lib 
-Requires: 

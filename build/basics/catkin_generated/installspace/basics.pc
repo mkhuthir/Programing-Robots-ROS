@@ -1,8 +1,0 @@
-prefix=/home/mkhuthir/learnROS/install
-
-Name: basics
-Description: Description of basics
-Version: 0.0.0
-Cflags: -I/home/mkhuthir/learnROS/install/include
-Libs: -L/home/mkhuthir/learnROS/install/lib 
-Requires: message_runtime actionlib_msgs

@@ -1,8 +1,0 @@
-prefix=/home/mkhuthir/learnROS/install
-
-Name: gazebo_gripper
-Description: Description of gazebo_gripper
-Version: 0.5.3
-Cflags: -I/home/mkhuthir/learnROS/install/include
-Libs: -L/home/mkhuthir/learnROS/install/lib 
-Requires: 
