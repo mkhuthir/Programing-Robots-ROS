@@ -1,21 +1,31 @@
 # learnROS
 
-'<big>***Programming Robots with ROS***</big>' 
+# Programming Robots with ROS
 
-ROS catkin workspace code from the above book, tested with ROS indigo/Ubuntu 14.04 LTS
+ROS catkin workspace code from the above book, tested with **ROS indigo/Ubuntu 14.04 LTS**
 
-##Packages:
+## Packages:
 	
-	basics
-	chessbot
-	followbot
-	mapping
-	navigation
-	patrol
-	stockroom_bot
-	stuff
-	teleopbot
-	tortoisebot
-	wanderbot
+* basics
+
+* chessbot
+
+* followbot
+
+* mapping
+
+* navigation
+
+* patrol
+
+* stockroom_bot
+
+* stuff
+
+* teleopbot
+
+* tortoisebot
+
+* wanderbot
 	
 	
